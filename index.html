@@ -8,23 +8,27 @@
   </head>
   </head>
   <body>
+    <div class="weather-app-body">
     
-    <div>
     <h1>
         Paris
     </h1>
+    <div class="weather-details">
     <p>
         Tuesday 13:29, light rain
     </br>
        Humidity: 86%, Wind: 8.23km/h 
     </p>
     </div>
-    <div> 🌦️13°C</div>
+    <div class="weather-icon"> 🌦️</div>
+    <div class="weather-temperature"> 13</div>
+    <div class="weather-metric">°C</div>
         
     <form>
-        <input type="search" placeholder="Enter a city" id="">
-        <input type="submit"  value="search" id="">
+        <input type="search" placeholder="Enter a city" id="enter-city-search">
+        <input type="submit"  value="search" id="search-button">
     </form>
+    
     <footer>
       <p>
         This project was coded by
@@ -42,6 +46,7 @@
           >hosted on Netlify</a
         >
       </p>
+      </div>
       <script src="script.js"></script>
     </footer>
   </body>
