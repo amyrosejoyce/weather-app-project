@@ -32,6 +32,10 @@ h1 {
   font-weight: 500;
 }
 
+.weather-details strong {
+  color: rgb(58, 124, 143);
+}
+
 .weather-app-container {
   display: flex;
   justify-content: center;
