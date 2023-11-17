@@ -19,7 +19,7 @@ h1 {
   margin: 0;
   margin-bottom: 5px;
   color: white;
-  font-size: 78px;
+  font-size: 58px;
   line-height: 48px;
 }
 
@@ -41,9 +41,8 @@ h1 {
   justify-content: center;
 }
 .weather-icon {
-  font-size: 38px;
-  line-height: 88px;
-  font-weight: bold;
+  height: 88px;
+  width: 88px;
 }
 .weather-temperature {
   color: white;
